@@ -1,0 +1,460 @@
+{
+  "analyzer_id": "pillar1_metadata_analyzer",
+  "analyzer_version": "1.0.0",
+  "execution_time_ms": 309.823,
+  "raw_observations": {
+    "exif_extractor": {},
+    "xmp_extractor": {
+      "xmp_present": false
+    },
+    "iptc_extractor": {},
+    "file_container_extractor": {
+      "mime_type": "image/png",
+      "file_size_bytes": 2504522,
+      "sha256_hash": "c6788e71fcb4b89c6c020f000fa2eb0bf025041715c45faad9035a070d60edb9",
+      "format": "PNG",
+      "raster_width": 1536,
+      "raster_height": 1024,
+      "color_mode": "RGB",
+      "icc_profile_present": false
+    },
+    "preview_extractor": {
+      "thumbnail_present": false
+    },
+    "c2pa_extractor": {
+      "c2pa_present": true,
+      "validation_status_code": "C2PA_VALID_UNTRUSTED",
+      "is_embedded": true,
+      "validation_state_raw": "Valid",
+      "validation_results_raw": {
+        "activeManifest": {
+          "success": [
+            {
+              "code": "timeStamp.validated",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+              "explanation": "timestamp message digest matched: OpenAI TSA Leaf"
+            },
+            {
+              "code": "claimSignature.insideValidity",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+              "explanation": "claim signature valid"
+            },
+            {
+              "code": "claimSignature.validated",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+              "explanation": "claim signature valid"
+            },
+            {
+              "code": "assertion.hashedURI.match",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.icon",
+              "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.icon"
+            },
+            {
+              "code": "assertion.hashedURI.match",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.actions.v2",
+              "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions.v2"
+            },
+            {
+              "code": "assertion.hashedURI.match",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.hash.data",
+              "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+            },
+            {
+              "code": "assertion.dataHash.match",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.hash.data",
+              "explanation": "data hash valid"
+            }
+          ],
+          "informational": [
+            {
+              "code": "timeStamp.untrusted",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+              "explanation": "timestamp cert untrusted: OpenAI TSA Leaf"
+            }
+          ],
+          "failure": [
+            {
+              "code": "signingCredential.untrusted",
+              "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+              "explanation": "signing certificate untrusted"
+            }
+          ]
+        }
+      },
+      "validation_eval": {
+        "data_hash_valid": true,
+        "data_hash_failed": false,
+        "signature_valid": true,
+        "signature_failed": false,
+        "signing_credential_trusted": false,
+        "signing_credential_untrusted": true,
+        "timestamp_validated": true,
+        "timestamp_untrusted": true,
+        "raw_codes": {
+          "success": [
+            "timeStamp.validated",
+            "claimSignature.insideValidity",
+            "claimSignature.validated",
+            "assertion.hashedURI.match",
+            "assertion.hashedURI.match",
+            "assertion.hashedURI.match",
+            "assertion.dataHash.match"
+          ],
+          "informational": [
+            "timeStamp.untrusted"
+          ],
+          "failure": [
+            "signingCredential.untrusted"
+          ]
+        }
+      },
+      "active_manifest": {
+        "title": "image.png",
+        "format": null,
+        "instance_id": "xmp:iid:ba555fe2-4818-4e6d-8946-4a9eb2e216e0",
+        "claim_generator": null,
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "when": "2026-09-06T00:00:00Z",
+            "softwareAgent": {
+              "name": "gpt-image",
+              "version": "2.0"
+            },
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+          },
+          {
+            "action": "c2pa.converted",
+            "when": "2026-09-06T00:00:00Z"
+          },
+          {
+            "action": "c2pa.watermarked.unbound",
+            "when": "2026-09-06T00:00:00Z"
+          }
+        ],
+        "ingredients": [],
+        "ai_generated_declared": true
+      }
+    }
+  },
+  "normalized_features": {
+    "make": null,
+    "model": null,
+    "software": null,
+    "orientation": null,
+    "datetime_original": null,
+    "datetime_create": null,
+    "datetime_modify": null,
+    "offset_time_original": null,
+    "offset_time": null,
+    "subsec_time_original": null,
+    "exposure_time": null,
+    "f_number": null,
+    "iso": null,
+    "focal_length": null,
+    "focal_length_35mm": null,
+    "flash": null,
+    "metering_mode": null,
+    "gps_latitude": null,
+    "gps_longitude": null,
+    "gps_altitude": null,
+    "gps_datetime": null,
+    "exif_width": null,
+    "exif_height": null,
+    "raster_width": 1536,
+    "raster_height": 1024,
+    "color_space": null,
+    "icc_profile_name": null,
+    "mime_type": "image/png",
+    "file_size_bytes": 2504522,
+    "creator_tool": null,
+    "document_id": null,
+    "instance_id": null,
+    "history_actions": [],
+    "byline": null,
+    "copyright_notice": null,
+    "credit": null,
+    "digital_creation_date": null,
+    "raw_tags": {
+      "exif_extractor": {},
+      "xmp_extractor": {
+        "xmp_present": false
+      },
+      "iptc_extractor": {},
+      "file_container_extractor": {
+        "mime_type": "image/png",
+        "file_size_bytes": 2504522,
+        "sha256_hash": "c6788e71fcb4b89c6c020f000fa2eb0bf025041715c45faad9035a070d60edb9",
+        "format": "PNG",
+        "raster_width": 1536,
+        "raster_height": 1024,
+        "color_mode": "RGB",
+        "icc_profile_present": false
+      },
+      "preview_extractor": {
+        "thumbnail_present": false
+      },
+      "c2pa_extractor": {
+        "c2pa_present": true,
+        "validation_status_code": "C2PA_VALID_UNTRUSTED",
+        "is_embedded": true,
+        "validation_state_raw": "Valid",
+        "validation_results_raw": {
+          "activeManifest": {
+            "success": [
+              {
+                "code": "timeStamp.validated",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+                "explanation": "timestamp message digest matched: OpenAI TSA Leaf"
+              },
+              {
+                "code": "claimSignature.insideValidity",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+                "explanation": "claim signature valid"
+              },
+              {
+                "code": "claimSignature.validated",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+                "explanation": "claim signature valid"
+              },
+              {
+                "code": "assertion.hashedURI.match",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.icon",
+                "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.icon"
+              },
+              {
+                "code": "assertion.hashedURI.match",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.actions.v2",
+                "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.actions.v2"
+              },
+              {
+                "code": "assertion.hashedURI.match",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.hash.data",
+                "explanation": "hashed uri matched: self#jumbf=c2pa.assertions/c2pa.hash.data"
+              },
+              {
+                "code": "assertion.dataHash.match",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.assertions/c2pa.hash.data",
+                "explanation": "data hash valid"
+              }
+            ],
+            "informational": [
+              {
+                "code": "timeStamp.untrusted",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+                "explanation": "timestamp cert untrusted: OpenAI TSA Leaf"
+              }
+            ],
+            "failure": [
+              {
+                "code": "signingCredential.untrusted",
+                "url": "self#jumbf=/c2pa/urn:c2pa:281f36dc-2fb4-4fbe-9fa8-a0bec619511f/c2pa.signature",
+                "explanation": "signing certificate untrusted"
+              }
+            ]
+          }
+        },
+        "validation_eval": {
+          "data_hash_valid": true,
+          "data_hash_failed": false,
+          "signature_valid": true,
+          "signature_failed": false,
+          "signing_credential_trusted": false,
+          "signing_credential_untrusted": true,
+          "timestamp_validated": true,
+          "timestamp_untrusted": true,
+          "raw_codes": {
+            "success": [
+              "timeStamp.validated",
+              "claimSignature.insideValidity",
+              "claimSignature.validated",
+              "assertion.hashedURI.match",
+              "assertion.hashedURI.match",
+              "assertion.hashedURI.match",
+              "assertion.dataHash.match"
+            ],
+            "informational": [
+              "timeStamp.untrusted"
+            ],
+            "failure": [
+              "signingCredential.untrusted"
+            ]
+          }
+        },
+        "active_manifest": {
+          "title": "image.png",
+          "format": null,
+          "instance_id": "xmp:iid:ba555fe2-4818-4e6d-8946-4a9eb2e216e0",
+          "claim_generator": null,
+          "actions": [
+            {
+              "action": "c2pa.created",
+              "when": "2026-09-06T00:00:00Z",
+              "softwareAgent": {
+                "name": "gpt-image",
+                "version": "2.0"
+              },
+              "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+            },
+            {
+              "action": "c2pa.converted",
+              "when": "2026-09-06T00:00:00Z"
+            },
+            {
+              "action": "c2pa.watermarked.unbound",
+              "when": "2026-09-06T00:00:00Z"
+            }
+          ],
+          "ingredients": [],
+          "ai_generated_declared": true
+        }
+      }
+    }
+  },
+  "evidence_items": [
+    {
+      "evidence_id": "400b03f2-84e0-4334-a51c-d1a47d9f60c6",
+      "pillar": "metadata_provenance",
+      "analyzer_id": "pillar1_metadata_analyzer",
+      "category": "DIGITAL_PROVENANCE",
+      "evidence_strength": "HIGH",
+      "validation_status_code": "C2PA_AI_DECLARED",
+      "rule_id": "C2PA_RULE_001",
+      "affected_fields": [
+        "c2pa:manifest",
+        "c2pa:actions"
+      ],
+      "raw_observation": {
+        "claim_generator": null,
+        "actions": [
+          {
+            "action": "c2pa.created",
+            "when": "2026-09-06T00:00:00Z",
+            "softwareAgent": {
+              "name": "gpt-image",
+              "version": "2.0"
+            },
+            "digitalSourceType": "http://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMedia"
+          },
+          {
+            "action": "c2pa.converted",
+            "when": "2026-09-06T00:00:00Z"
+          },
+          {
+            "action": "c2pa.watermarked.unbound",
+            "when": "2026-09-06T00:00:00Z"
+          }
+        ],
+        "ai_generated_declared": true,
+        "software_agent": "gpt-image"
+      },
+      "finding_summary": "Valid C2PA manifest contains explicit declaration of AI generation by gpt-image",
+      "interpretation": "The asset contains a cryptographically verified C2PA manifest with an action assertion explicitly declaring generative AI creation (Software Agent: gpt-image).",
+      "limitations": [
+        "C2PA verifies declared provenance assertions signed by a key; it does not replace optical or physical analysis nor independently prove real-world scene authorship."
+      ],
+      "supporting_values": {},
+      "analyzer_version": "1.0.0",
+      "reproducibility_info": {}
+    },
+    {
+      "evidence_id": "0d171336-e4b5-42fc-ac3f-462630341e25",
+      "pillar": "metadata_provenance",
+      "analyzer_id": "pillar1_metadata_analyzer",
+      "category": "DIGITAL_PROVENANCE",
+      "evidence_strength": "MEDIUM",
+      "validation_status_code": "C2PA_VALID_UNTRUSTED",
+      "rule_id": "C2PA_RULE_002",
+      "affected_fields": [
+        "c2pa:manifest",
+        "c2pa:signature",
+        "c2pa:hash_data"
+      ],
+      "raw_observation": {
+        "validation_state_raw": "Valid",
+        "validation_eval": {
+          "data_hash_valid": true,
+          "data_hash_failed": false,
+          "signature_valid": true,
+          "signature_failed": false,
+          "signing_credential_trusted": false,
+          "signing_credential_untrusted": true,
+          "timestamp_validated": true,
+          "timestamp_untrusted": true,
+          "raw_codes": {
+            "success": [
+              "timeStamp.validated",
+              "claimSignature.insideValidity",
+              "claimSignature.validated",
+              "assertion.hashedURI.match",
+              "assertion.hashedURI.match",
+              "assertion.hashedURI.match",
+              "assertion.dataHash.match"
+            ],
+            "informational": [
+              "timeStamp.untrusted"
+            ],
+            "failure": [
+              "signingCredential.untrusted"
+            ]
+          }
+        }
+      },
+      "finding_summary": "C2PA manifest signature and content binding are valid, but signing certificate is untrusted under active trust list configuration",
+      "interpretation": "The image content-binding hash and claim signature are valid (image bytes were not modified post-signature). However, the signing entity certificate is untrusted under the active trust configuration (e.g. self-signed or missing from local trust list).",
+      "limitations": [
+        "Valid C2PA provenance confirms signature chain and asset hash integrity, but does not prevent analog hole tampering (re-photographing a screen).",
+        "Untrusted certificates can be generated by self-signed applications or signers not present on the active trust list."
+      ],
+      "supporting_values": {},
+      "analyzer_version": "1.0.0",
+      "reproducibility_info": {}
+    },
+    {
+      "evidence_id": "2d1233b7-449d-4893-8f48-dffda07123b5",
+      "pillar": "metadata_provenance",
+      "analyzer_id": "pillar1_metadata_analyzer",
+      "category": "DIGITAL_PROVENANCE",
+      "evidence_strength": "LOW",
+      "validation_status_code": "TIMESTAMP_UNTRUSTED",
+      "rule_id": "C2PA_RULE_005",
+      "affected_fields": [
+        "c2pa:timestamp"
+      ],
+      "raw_observation": {
+        "timestamp_untrusted": true
+      },
+      "finding_summary": "C2PA timestamp authority certificate is untrusted",
+      "interpretation": "The cryptographic timestamp certificate embedded in the signature is untrusted or self-signed under active trust configuration.",
+      "limitations": [
+        "Timestamp authority certificates must be registered on the trust list for independent temporal verification."
+      ],
+      "supporting_values": {},
+      "analyzer_version": "1.0.0",
+      "reproducibility_info": {}
+    }
+  ],
+  "errors": [],
+  "warnings": [
+    "[exif_extractor] ExifTool binary unavailable; executed pure-Python PIL/ExifRead fallback"
+  ],
+  "reproducibility_metadata": {
+    "authentipix_version": "0.1.0",
+    "python_version": "3.13.7",
+    "pillow_version": "11.3.0",
+    "c2pa_python_version": "0.37.10",
+    "pyexiftool_version": "0.5.6",
+    "rule_manifest_version": "1.0.0-phase1-rules",
+    "rule_manifest_hash": "3c1323903c2fb893",
+    "c2pa_validator_config": {
+      "c2pa_sdk_version": "0.37.10",
+      "trust_anchors_configured": "default_sdk_trust_store",
+      "validation_policy": "standard_c2pa_v1_v2"
+    },
+    "asset_image_id": "sample1.png",
+    "input_sha256": "c6788e71fcb4b89c6c020f000fa2eb0bf025041715c45faad9035a070d60edb9",
+    "file_size_bytes": 2504522,
+    "mime_type": "image/png",
+    "execution_timestamp_utc": "2026-09-06T20:59:11.105114+00:00"
+  }
+}
